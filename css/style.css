@@ -1,0 +1,36 @@
+body {
+    padding-top: 56px;
+}
+
+.jumbotron {
+    background: url("/exercises/img/bannerimg.jpg") center;
+    color: white;
+}
+.btn-primary {
+    background-color: #c60063;
+    border-color: #c60063;
+}
+
+.card-img-top{
+    width: auto;
+    height: 250px;
+}
+
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+.map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+.btn-light-blue{
+     background-color: lightblue;
+  }
+ 
